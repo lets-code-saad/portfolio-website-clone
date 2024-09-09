@@ -2320,7 +2320,10 @@ bottom:10px;
     width: 480px;
     height: 150px;
     font-family: var(--main-font);
-    align-items: center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
 }
 
 .address-icon {
@@ -2352,6 +2355,10 @@ bottom:10px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
     width: 250px;
     height: 150px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
 }
 
 .call-icon {
@@ -2384,6 +2391,10 @@ bottom:10px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
     width: 250px;
     height: 150px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
 }
 
 .email-icon {
@@ -2454,7 +2465,7 @@ bottom:10px;
 .input-portion .input-4 {
     padding: 5px 195px 115px 5px;
     width: 250px;
-    margin: 10px 20px 0px 20px;
+    margin: 10px 20px 0px 0px;
     opacity: 50%;
 }
 
@@ -2705,7 +2716,9 @@ bottom:10px;
     color: #388DA8;
     margin: 0px 0px 0px 0px;
 }
-
+.footer-bottom-data{
+text-align:center;
+}
 @media (max-width:425px) {
 
 .logo{
@@ -2729,7 +2742,7 @@ bottom:10px;
     top:16px;
     font-size:10vw;
 }
-.nav-links-items button{
+.nav-links-items button {
 display:block;
 position:absolute;
 left:220px;
@@ -5110,6 +5123,7 @@ top:18px;
 
     .footer-bottom {
         margin: -160px 0px 20px 0px;
+        
     }
 
     .bottom-horizontal-line {
